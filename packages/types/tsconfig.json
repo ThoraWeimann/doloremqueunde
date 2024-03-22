@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "paths": {
+      "@acala-network/types": ["src"],
+      "@acala-network/types/*": ["src/*"],
+    }
+  },
+  "include": ["src/**/*"],
+}
